@@ -1,0 +1,7 @@
+Una red informática conecta dispositivos para que puedan intercambiar datos y compartir recursos. En una red local o LAN, los equipos suelen encontrarse dentro de una vivienda, oficina o edificio. Una WAN conecta redes a distancias mayores; Internet es el ejemplo más conocido.
+
+Cada dispositivo conectado a una red IP utiliza una dirección IP. IPv4 representa las direcciones mediante cuatro números separados por puntos, mientras que IPv6 utiliza una representación más extensa y ofrece un espacio de direcciones mucho mayor. Un router comunica redes diferentes y dirige los paquetes hacia su destino. Un switch conecta dispositivos dentro de una misma red local.
+
+El sistema DNS traduce nombres de dominio, como ejemplo.com, a direcciones IP. Gracias a este sistema, las personas no necesitan recordar la dirección numérica de cada servidor. DHCP puede asignar automáticamente direcciones IP y otros parámetros de red a los dispositivos.
+
+TCP prioriza una entrega fiable y ordenada de los datos. UDP tiene menos sobrecarga y se utiliza cuando la velocidad resulta más importante que recuperar cada paquete perdido. HTTP se emplea para transferir recursos web y HTTPS añade cifrado mediante TLS para proteger la comunicación.

@@ -1,0 +1,9 @@
+Una base de datos permite almacenar, organizar y consultar información. Un sistema gestor de bases de datos, también llamado SGBD o DBMS, proporciona herramientas para crear estructuras, insertar registros, hacer consultas, actualizar datos y controlar el acceso.
+
+Las bases de datos relacionales organizan la información en tablas formadas por filas y columnas. Una clave primaria identifica de manera única cada fila. Una clave foránea conecta registros de tablas diferentes. SQL es el lenguaje utilizado habitualmente para consultar y modificar bases de datos relacionales como PostgreSQL, MySQL y SQLite.
+
+La normalización ayuda a reducir la duplicación y las inconsistencias mediante la separación de los datos en tablas relacionadas. Los índices aceleran determinadas búsquedas, aunque ocupan espacio adicional y pueden aumentar el coste de las escrituras.
+
+Una transacción agrupa varias operaciones como una sola unidad de trabajo. Las propiedades ACID describen características importantes de las transacciones: atomicidad, consistencia, aislamiento y durabilidad. Si una operación crítica falla, la transacción puede revertirse para evitar que la base quede en un estado incompleto.
+
+Las bases de datos NoSQL utilizan modelos distintos al relacional, como documentos, grafos o pares clave-valor. Son útiles en ciertos problemas, pero no sustituyen automáticamente a las bases relacionales; la elección depende de los datos y de las consultas necesarias.

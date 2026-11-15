@@ -1,0 +1,9 @@
+La ciberseguridad reúne prácticas destinadas a proteger dispositivos, redes, aplicaciones y datos. Tres objetivos fundamentales son la confidencialidad, la integridad y la disponibilidad. La confidencialidad limita el acceso a personas autorizadas, la integridad evita modificaciones indebidas y la disponibilidad procura que los sistemas funcionen cuando se necesitan.
+
+El phishing es un ataque de ingeniería social que intenta engañar a una persona para que revele credenciales, entregue información sensible o ejecute contenido malicioso. Una señal de alerta puede ser un mensaje inesperado que exige actuar con urgencia. Antes de abrir un enlace conviene comprobar el remitente y el dominio real.
+
+Una contraseña debe ser larga, única y difícil de adivinar. Un gestor de contraseñas facilita el uso de claves diferentes para cada servicio. La autenticación multifactor añade otra comprobación y reduce el riesgo cuando una contraseña queda expuesta.
+
+Las actualizaciones corrigen vulnerabilidades conocidas, por lo que los sistemas y aplicaciones deben mantenerse al día. Las copias de seguridad permiten recuperar información después de un fallo, borrado accidental o ataque de ransomware. Es recomendable mantener varias copias y conservar al menos una separada del sistema principal.
+
+El principio de mínimo privilegio establece que cada usuario o programa debe recibir únicamente los permisos necesarios para realizar su función. Esta medida limita el daño que puede causar una cuenta comprometida.

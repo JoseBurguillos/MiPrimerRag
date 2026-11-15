@@ -1,0 +1,7 @@
+Python es un lenguaje de programación de alto nivel creado por Guido van Rossum. Su primera versión pública apareció en 1991. Se caracteriza por una sintaxis clara y legible, lo que facilita su aprendizaje y permite expresar ideas con menos código que muchos otros lenguajes.
+
+En Python, las variables no necesitan una declaración explícita de tipo. El intérprete determina el tipo a partir del valor asignado. Entre sus estructuras de datos principales se encuentran las listas, las tuplas, los diccionarios y los conjuntos. Las listas son mutables, mientras que las tuplas no pueden modificarse después de su creación.
+
+Python se utiliza en automatización, desarrollo web, análisis de datos, inteligencia artificial y computación científica. Para organizar código reutilizable se emplean funciones, clases, módulos y paquetes. Un entorno virtual permite instalar las dependencias de un proyecto de manera aislada, evitando conflictos con otros proyectos.
+
+Los bloques de código se delimitan mediante indentación. Por este motivo, mantener una sangría coherente es obligatorio. El administrador de paquetes pip permite instalar bibliotecas publicadas en el índice de paquetes de Python.
