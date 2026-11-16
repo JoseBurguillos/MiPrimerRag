@@ -13,12 +13,12 @@ START → rewrite_question → retrieve → grade_document ──decidir──�
 
 | Nodo | Qué hace |
 |---|---|
-| `rewrite_question` | ✍️ |
-| `retrieve` | ✍️ |
-| `grade_document` | ✍️ |
-| `decidir` | ✍️ |
-| `generate` | ✍️ |
-| `no_answer` | ✍️ |
+| `rewrite_question` | Reescribe la pregunta del usuario para que sea clara y concreta antes de buscar (p. ej. *"lo de las contraseñas ¿cómo va?"* → *"¿Cómo se gestionan las contraseñas de forma segura?"*) |
+| `retrieve` | Busca en ChromaDB los `k` fragmentos más parecidos a la pregunta reescrita |
+| `grade_document` | Un LLM juez evalúa si los fragmentos recuperados son relevantes para la pregunta original y devuelve `"si"` o `"no"` |
+| `decidir` | Arista condicional: si el juez responde `"si"` pasa a `generate`; si responde `"no"`, a `no_answer` |
+| `generate` | Genera la respuesta usando únicamente los fragmentos recuperados y la pregunta original |
+| `no_answer` | Devuelve un mensaje indicando que no hay información sobre eso en los documentos |
 
 ## Tecnologías
 
